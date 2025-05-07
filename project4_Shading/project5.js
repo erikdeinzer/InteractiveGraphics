@@ -278,7 +278,6 @@ class MeshDrawer
 	setShininess( shininess )
 	{
 		// [TO-DO] set the uniform parameter(s) of the fragment shader to specify the shininess.
-		console.log("Shininess: ", shininess);
 		gl.useProgram(this.prog);
 		gl.uniform1f(this.uShininess, shininess);
 	}
